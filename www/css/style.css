@@ -71,5 +71,6 @@
     }
 
     Button{
-      color: blueviolet
+      color: blueviolet;
+      font-style: italic;
     }
