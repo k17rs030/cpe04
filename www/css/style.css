@@ -73,4 +73,5 @@
     Button{
       color: blueviolet;
       font-style: italic;
+      border-radius: 25px;
     }
