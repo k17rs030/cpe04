@@ -169,9 +169,9 @@
         var canvas=$("#mycanvas")[0];
       var ctx=canvas.getContext("2d");
       var img=new Image();
-      img.src="ksuisbg.gif";
+      img.src="MNT.jpg";
       img.onload=function(){
-        ctx.drawImage(img,0,0,300,300);
+        ctx.drawImage(img,0,0,350,350);
         };
 
         var audio=new Audio();
@@ -203,6 +203,7 @@
         $("#time").html("経過時間：0");
         $("#remain").html("残り時間："+period);
         
+        
     }
     
  
@@ -227,7 +228,7 @@
   </script>
 </head>
 <body>
-    <canvas id="mycanvas" width="200" height="200">Test</canvas>
+    <canvas id="mycanvas" width="450" height="450">Test</canvas>
 
     <div id="minuteStr">〇</div>
     <div id="secondStr">〇</div>
